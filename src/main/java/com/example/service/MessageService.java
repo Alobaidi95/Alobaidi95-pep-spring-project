@@ -23,6 +23,7 @@ public class MessageService {
         message.getMessageText().trim().isEmpty()||
         message.getMessageText().length() > 255)
         {
+            
             return null;
         }
 
